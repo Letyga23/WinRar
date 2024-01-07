@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #fff;
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    letter-spacing: -.015em
+}
+
+h2 {
+    font-size: 1.75em line-height: 1.5em
+}
+
+.align-center,
+article.special,
+section.special {
+    text-align: center
+}
+
+.button {
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 2.95em;
+    padding: 0 1.75em;
+    text-align: center;
+}
+
+ul.icons li {
+    display: inline-block;
+    padding: 0 1.5em 0 0;
+}
+
+ul.icons li:last-child {
+    padding-right: 0 !important
+}
+
+ul.actions li {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+header.major {
+    margin: 0 0 2.5em;
+    text-align: center
+}
+
+header.major:after {
+    content: '';
+    border-bottom: solid 2px #e6e6e6;
+    display: block;
+    width: 4em;
+    margin: 2em auto 0
+}
+
+.spotlight {
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.spotlight .image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 0 3em 0 0;
+    display: block
+}
+
+.spotlight .image img {
+    display: block;
+    border-radius: 100%;
+    width: 100%
+}
+
+
+
+.spotlight:nth-child(2n) {
+    flex-direction: row-reverse
+}
+
+.spotlight:nth-child(2n) .image {
+    margin: 0 0 0 3em
+}
+
+
+
+
+.wrapper {
+    padding: 4.5em 0 2.5em;
+    background-color: #fff;
+    border-bottom: solid 2px #eee
+}
+
+
+
+.wrapper > .inner.alt > :first-child {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0
+}
+
+.wrapper {
+    padding: 4em 4em 2em
+}
+
+
+
+#header .content > :last-child {
+    margin-bottom: 0
+}
+
+#header h1 {
+    font-size: 3.25em;
+    font-weight: 700;
+    margin-bottom: .5em
+}
+
+#header p {
+    font-size: 1.5em;
+    line-height: 1.35em
+}
+
+#header .content {
+    text-align: right;
+    align-items: center;
+}
+
+.wrapper > .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+.wrapper > .inner.alt > * {
+    border-top: solid 2px #eee;
+}
+
+#footer {
+    background-color: #f7f7f7;
+    color: #b0b0b0;
+    text-align: center
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#footer .copyright {
+    font-size: .8em;
+}
+
+body {
+    background-color: #222
+}
+
+#header {
+    background-color: #00834a;
+    color: white;
+    line-height: 5em;
+    justify-content: center;
+    display: flex;
+}
+
+#header .content .subcontent {
+    color: rgba(166, 220, 169, .46);
+    font-size: 0.7em;
+    line-height: 1.5em;
+}
+
+#header .content .subcontent .download {
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em
+}
+
+
+#legacy .button.special:hover {
+    background-color: #8a6563
+}
+
+
+#legacy .subcontent .highlight:hover {
+    color: #666;
+    cursor: default;
+}
+
+#beta header a:hover {
+    border-bottom: none;
+    color: #d87036
+}
+
+#beta .button.special {
+    background-color: #d87036;
+    color: #fff !important
+}
+
+#beta .button.special:hover {
+    background-color: #ee7e3e
+}
+
+
+
+
+#beta .subcontent a:hover {
+    border-bottom: dotted 1px !important
+}
+
+#beta .subcontent .highlight:hover {
+    cursor: text;
+    color: #999
+}
+
+
+
+#toolbar {
+    background-color: #00834a;
+    color: #d2d1d2;
+    line-height: 3.65em;
+    text-align: right;
+}
+
+#toolbar img {
+    height: 28px;
+    width: 28px;
+    vertical-align: middle;
+    margin-bottom: .2em;
+    margin-right: .3em;
+}
+
+#toolbar a:hover {
+    color: #fff
+}
+
+#header .content .subcontent .highlight:hover,
+#header .content .subcontent a {
+    color: rgba(166, 220, 169, .89)
+}
+
+
+#toolbar a.nav {
+    padding: 0 .35em
+}
+
+#toolbar a:last-child {
+    padding-right: 1.5em
+}
+
+#footer {
+    background-color: #222
+}
+
+a {
+    border-bottom: none;
+    color: inherit;
+    text-decoration: none
+}
+
+#footer .moreinfo {
+    color: #6d6d6d;
+    font-size: .7em;
+    cursor: default
+}
+
+#footer .languages {
+    color: #6d6d6d;
+    font-size: .6em
+}
+
+#footer .languages a,
+#footer .languages span.active {
+    padding: .2em
+}
+
+#footer .languages span.active {
+    color: #b0b0b0;
+    cursor: default
+}
+
+#footer .languages span.separator::after {
+    content: " | "
+}
+
+
+.wrapper {
+    background-color: #222 !important;
+}
+
+h2,
+h3,
+h4 {
+    color: #a1a1a1 !important
+}
+
+
+.wrapper.style2 .button.special {
+    background-color: #12467b;
+    color: #dbdbdb !important
+}
+
+.image {
+    box-shadow: 0 0 0 4px #484848, 0 0 0 5px #333
+}
+
+#defaultapp,
+#info,
+#legacy,
+#termsofuse {
+    background-color: #2a2a2a !important
+}
+
